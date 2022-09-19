@@ -6,7 +6,9 @@
         <h1>Candy UI</h1>
         <h2>一个面向学习者的 UI 框架</h2>
         <p class="actions">
-          <a href="https://github.com">GitHub</a>
+          <a href="https://github.com/hcomeon/candy-ui" target="_blank"
+            >GitHub</a
+          >
           <router-link to="/doc">开始</router-link>
         </p>
       </div>
@@ -49,7 +51,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$green: #63b8cd;
+$blue: #63b8cd;
 $border-radius: 4px;
 $color: #36648b;
 
@@ -128,7 +130,7 @@ $color: #36648b;
 
     a {
       margin: 0 8px;
-      background: $green;
+      background: $blue;
       opacity: 0.9;
       color: white;
       display: inline-block;

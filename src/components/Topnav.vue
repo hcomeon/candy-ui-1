@@ -11,7 +11,7 @@
       </li>
     </ul>
     <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">
-      <use xlink:href="#icon-menu"></use>
+      <use xlink:href="#icon-menu2"></use>
     </svg>
   </div>
 </template>
@@ -39,7 +39,6 @@ export default {
 
 <style lang="scss" scoped>
 $color: #36648b;
-
 .topnav {
   color: $color;
   display: flex;
@@ -51,27 +50,22 @@ $color: #36648b;
   z-index: 20;
   justify-content: center;
   align-items: center;
-
   > .logo {
     max-width: 6em;
     margin-right: auto;
-
     > svg {
-      width: 36px;
-      height: 36px;
+      width: 32px;
+      height: 32px;
     }
   }
-
   > .menu {
     display: flex;
     white-space: nowrap;
     flex-wrap: nowrap;
-
     > li {
       margin: 0 1em;
     }
   }
-
   > .toggleAside {
     width: 32px;
     height: 32px;
@@ -82,16 +76,13 @@ $color: #36648b;
     display: none;
     background: fade-out(black, 0.9);
   }
-
   @media (max-width: 500px) {
     > .menu {
       display: none;
     }
-
     > .logo {
       margin: 0 auto;
     }
-
     > .toggleAside {
       display: inline-block;
     }
